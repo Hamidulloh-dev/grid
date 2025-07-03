@@ -1,0 +1,50 @@
+body {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(4, 1fr); */
+    height: 400px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body div:nth-child(1) {
+    background-color: blueviolet;
+}
+body div:nth-child(2) {
+    background-color: deepskyblue;
+}
+body div:nth-child(3) {
+    background-color: cornflowerblue;
+}
+body div:nth-child(4) {
+    background-color: aquamarine;
+}
+body div:nth-child(5) {
+    background-color: forestgreen;
+}
+body div:nth-child(6) {
+    background-color: greenyellow;
+}
+body div:nth-child(7) {
+    background-color: yellow;
+}
+body div:nth-child(8) {
+    background-color: goldenrod;
+}
+body div:nth-child(9) {
+    background-color: darkgoldenrod;
+}
+body div:nth-child(10) {
+    background-color: red;
+}
+body div:nth-child(11) {
+    background-color: brown;
+}
+body div:nth-child(12) {
+    background-color: darkorchid;
+}

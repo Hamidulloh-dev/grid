@@ -1,0 +1,36 @@
+body {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+body div {
+    border: 5px solid white;
+}
+
+body div:nth-child(1) {
+    grid-column: span 7;
+    background-color: blueviolet;
+}
+
+body div:nth-child(2) {
+    grid-column: span 2;
+    background-color: blue;
+}
+
+body div:nth-child(3) {
+    grid-column: span 5;
+    background-color: cornflowerblue;
+}
+
+body div:nth-child(4) {
+    grid-column: span 7;
+    background-color:aquamarine ;
+}
+
+body div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
